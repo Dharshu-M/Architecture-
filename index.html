@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <style>
+      .service-heading {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="">
+      <div
+        class="contact-bar bg-dark text-secondary py-1 d-flex align-items-center"
+      >
+        <span class="d-inline">
+          <i class="bi bi-telephone-fill icons me-2 ms-4"></i>+91 1234543287
+        </span>
+        <span class="d-inline">
+          <i class="bi bi-envelope-open-fill icons me-2 ms-4"></i
+          >archi@gmail.com
+        </span>
+        <div class="d-flex ms-auto">
+          <span class="text-secondary py-1 me-3 term">Term</span>
+          <span class="text-secondary py-1 me-2 pricy">Privacy</span>
+          <span
+            class="badge rounded-0 d-flex align-items-center justify-content-center my-2 ms-2 border border-secondary"
+          >
+            <i class="bi bi-facebook icons"></i>
+          </span>
+          <span
+            class="badge rounded-0 d-flex align-items-center justify-content-center my-2 ms-2 border border-secondary"
+          >
+            <i class="bi bi-twitter icons"></i>
+          </span>
+          <span
+            class="badge rounded-0 d-flex align-items-center justify-content-center my-2 ms-2 border border-secondary"
+          >
+            <i class="bi bi-whatsapp icons"></i>
+          </span>
+          <span
+            class="badge rounded-0 d-flex align-items-center justify-content-center my-2 ms-2 me-4 border border-secondary"
+          >
+            <i class="bi bi-instagram icons"></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="navbar navbar-expand-lg">
+        <div class="container-fluid d-flex py-0">
+          <div class="navbar-brand">
+            <a href="#"><i class="bi bi-buildings icons fs-3"></i></a>
+            <a href="#" class="navbar-brand fs-2">Architect</a>
+          </div>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-target="#navexpand"
+            data-bs-toggle="collapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navexpand">
+            <ul class="navbar-nav justify-content-end w-100">
+              <li class="nav-item">
+                <a href="#" class="nav-link text-dark">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link ms-2 text-dark">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link ms-2 text-dark">Service</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link ms-2 text-dark">Contact</a>
+              </li>
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn border rounded-0 ms-3 me-4 apnmt-btn"
+                >
+                  Appoinment
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel slide carousel-fade" id="carouselmove">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pic1.jpg" class="d-block w-100" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="display-4 fw-bold">Design Your Dream Space</h1>
+              <p class="lead">Modern architecture, timeless elegance.</p>
+              <a href="#" class="btn getstrt-btn rounded-0 mt-2 px-5 py-3 fs-4"
+                >Get Started</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pic2.jpg" class="d-block w-100" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="display-4 fw-bold">Design Your Dream Space</h1>
+              <p class="lead">Modern architecture, timeless elegance.</p>
+              <a href="#" class="btn getstrt-btn rounded-0 mt-2 px-5 py-3 fs-4"
+                >Get Started</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pic3.jpg" class="d-block w-100" />
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="display-4 fw-bold">Design Your Dream Space</h1>
+              <p class="lead">Modern architecture, timeless elegance.</p>
+              <a href="#" class="btn getstrt-btn rounded-0 mt-2 px-5 py-3 fs-4"
+                >Get Started</a
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          data-bs-target="#carouselmove"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-target="#carouselmove"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <div class="container-fluid project-section">
+        <div class="d-inline-flex pr-1">
+          <h1 class="display-1 pr1 reveal reveal-left">
+            Our Featured Projects
+          </h1>
+          <h1 class="pr2 reveal reveal-right">
+            A glimpse into the spaces we've transformed — where creativity,
+            craftsmanship, and comfort come together in perfect harmony.
+          </h1>
+        </div>
+
+        <div class="d-inline-flex pr-2">
+          <div class="pr3-wrap reveal reveal-left">
+            <img src="pic4.jpg" class="pr3" />
+            <span class="pr-label"
+              ><span class="dot"></span> The Glass Atrium</span
+            >
+          </div>
+          <div class="pr4-wrap reveal reveal-right">
+            <img src="pic5.jpg" class="pr4" />
+            <span class="pr-label pr-label-right"
+              ><span class="dot"></span> Oak & Ivory</span
+            >
+          </div>
+        </div>
+
+        <div class="d-inline-flex pr-row2">
+          <div class="pr4b-wrap reveal reveal-left">
+            <img src="pic6.jpg" class="pr4b" />
+            <span class="pr-label-b"
+              ><span class="dot"></span> The Terra House</span
+            >
+          </div>
+          <div class="pr3b-wrap reveal reveal-right">
+            <img src="pic7.jpg" class="pr3b" />
+            <span class="pr-label-b pr-label-b-right"
+              ><span class="dot"></span> The Framework Lab</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid aboutus d-inline-flex">
+        <div class="box reveal reveal-left">
+          <img src="pic8.jpg" class="img-back" />
+          <img src="pic9.jpg" class="img-front" />
+        </div>
+        <div class="abt reveal reveal-right">
+          <div class="abt-label">ABOUT US</div>
+          <div class="abt-heading fs-5">
+            A Creative Architecture Agency For Your Dream Home
+          </div>
+          <div class="abt-body">
+            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+            diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+            lorem sit clita duo justo magna dolore erat amet
+          </div>
+          <div class="abt-body">
+            Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet
+            est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy
+            clita sit at, sed sit sanctus dolor eos.
+          </div>
+          <div class="abt-stats d-inline-flex">
+            <div class="num-box">25</div>
+            <div class="num-txt">Years Working Experience</div>
+          </div>
+          <div><a href="#" class="read-more-btn">Read More</a></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="container service">
+          <h1 class="service-label reveal reveal-up">Our Service</h1>
+          <p class="service-heading h3 reveal reveal-up reveal-delay-1">
+            We Focused On Modern Architecture And Interior Design
+          </p>
+        </div>
+        <div class="container row service-row">
+          <div class="col-4">
+            <div
+              class="card reveal reveal-up reveal-delay-1"
+              stylestyle="width: 18rem;"
+            >
+              <div class="card-body">
+                <div class="card-title">ARCHITECTURE</div>
+                <div class="card-text">
+                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                  lorem sed diam stet diam sed stet.
+                </div>
+                <a href="#" class="expand-btn btn">
+                  <span class="plus-icon">+</span>
+                  <span class="expand-text">Read More</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div
+              class="card reveal reveal-up reveal-delay-2"
+              stylestyle="width: 18rem;"
+            >
+              <div class="card-body">
+                <div class="card-title">3D ANIMATION</div>
+                <div class="card-text">
+                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                  lorem sed diam stet diam sed stet.
+                </div>
+                <a href="#" class="expand-btn btn">
+                  <span class="plus-icon">+</span>
+                  <span class="expand-text">Read More</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div
+              class="card reveal reveal-up reveal-delay-3"
+              stylestyle="width: 18rem;"
+            >
+              <div class="card-body">
+                <div class="card-title">HOUSE PLANNING</div>
+                <div class="card-text">
+                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                  lorem sed diam stet diam sed stet.
+                </div>
+                <a href="#" class="expand-btn btn">
+                  <span class="plus-icon">+</span>
+                  <span class="expand-text">Read More</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container row service-row">
+          <div class="col-4">
+            <div
+              class="card reveal reveal-up reveal-delay-1"
+              stylestyle="width: 18rem;"
+            >
+              <div class="card-body">
+                <div class="card-title">ARCHITECTURE</div>
+                <div class="card-text">
+                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                  lorem sed diam stet diam sed stet.
+                </div>
+                <a href="#" class="expand-btn btn">
+                  <span class="plus-icon">+</span>
+                  <span class="expand-text">Read More</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div
+              class="card reveal reveal-up reveal-delay-2"
+              stylestyle="width: 18rem;"
+            >
+              <div class="card-body">
+                <div class="card-title">3D ANIMATION</div>
+                <div class="card-text">
+                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                  lorem sed diam stet diam sed stet.
+                </div>
+                <a href="#" class="expand-btn btn">
+                  <span class="plus-icon">+</span>
+                  <span class="expand-text">Read More</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div
+              class="card reveal reveal-up reveal-delay-3"
+              stylestyle="width: 18rem;"
+            >
+              <div class="card-body">
+                <div class="card-title">HOUSE PLANNING</div>
+                <div class="card-text">
+                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
+                  lorem sed diam stet diam sed stet.
+                </div>
+                <a href="#" class="expand-btn btn">
+                  <span class="plus-icon">+</span>
+                  <span class="expand-text">Read More</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid our-projects">
+        <div class="proj-label reveal reveal-up">OUR PROJECTS</div>
+        <h1 class="proj-heading reveal reveal-up reveal-delay-1">
+          Visit Our Latest Projects And Our<br />Innovative Works
+        </h1>
+
+        <div class="proj-body">
+          <div class="proj-tabs reveal reveal-left" id="projTabs">
+            <button class="proj-tab active" data-index="0">
+              01. Modern Complex
+            </button>
+            <button class="proj-tab" data-index="1">02. Royal Hotel</button>
+            <button class="proj-tab" data-index="2">03. Mexwel Buiding</button>
+            <button class="proj-tab" data-index="3">
+              04. Shopping Complex
+            </button>
+          </div>
+
+          <div class="proj-content reveal reveal-right" id="projContent"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid team-section">
+        <div class="team-label reveal reveal-up">TEAM MEMBERS</div>
+        <h1 class="team-heading reveal reveal-up reveal-delay-1">
+          We Are Creative Architecture Team<br />For Your Dream Home
+        </h1>
+
+        <div class="team-row">
+          <div class="team-card reveal reveal-up reveal-delay-1">
+            <div class="team-img-wrap">
+              <img src="" class="team-img" alt="Architect Name" />
+              <div class="team-socials">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <div class="team-name">Architect Name</div>
+              <div class="team-role">Designation</div>
+            </div>
+          </div>
+
+          <div class="team-card reveal reveal-up reveal-delay-2">
+            <div class="team-img-wrap">
+              <img src="" class="team-img" alt="Architect Name" />
+              <div class="team-socials">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <div class="team-name">Architect Name</div>
+              <div class="team-role">Designation</div>
+            </div>
+          </div>
+
+          <div class="team-card reveal reveal-up reveal-delay-3">
+            <div class="team-img-wrap">
+              <img src="" class="team-img" alt="Architect Name" />
+              <div class="team-socials">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <div class="team-name">Architect Name</div>
+              <div class="team-role">Designation</div>
+            </div>
+          </div>
+
+          <div class="team-card reveal reveal-up reveal-delay-4">
+            <div class="team-img-wrap">
+              <img src="" class="team-img" alt="Architect Name" />
+              <div class="team-socials">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </div>
+            </div>
+            <div class="team-info">
+              <div class="team-name">Architect Name</div>
+              <div class="team-role">Designation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid appointment-section">
+        <div class="apmt-row">
+          <div class="apmt-left reveal reveal-left">
+            <div class="apmt-label">APPOINTMENT</div>
+            <h1 class="apmt-heading">
+              Make An Appointment To Start Your Dream Project
+            </h1>
+            <p class="apmt-text">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
+              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
+              lorem sit clita duo justo magna dolore erat amet
+            </p>
+
+            <div class="apmt-contact">
+              <div class="apmt-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <div class="apmt-contact-label">Call Us Now</div>
+                <div class="apmt-contact-value">+012 345 6789</div>
+              </div>
+            </div>
+
+            <div class="apmt-contact">
+              <div class="apmt-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <div class="apmt-contact-label">Mail Us Now</div>
+                <div class="apmt-contact-value">info@example.com</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="apmt-right reveal reveal-right">
+            <form class="apmt-form">
+              <div class="apmt-form-row">
+                <input type="text" class="apmt-input" placeholder="Your Name" />
+                <input
+                  type="email"
+                  class="apmt-input"
+                  placeholder="Your Email"
+                />
+              </div>
+
+              <div class="apmt-form-row">
+                <input
+                  type="text"
+                  class="apmt-input"
+                  placeholder="Your Mobile"
+                />
+                <select class="apmt-input">
+                  <option value="" disabled selected>Choose Service</option>
+                  <option value="architecture">Architecture</option>
+                  <option value="3d-animation">3D Animation</option>
+                  <option value="house-planning">House Planning</option>
+                </select>
+              </div>
+
+              <div class="apmt-form-row">
+                <input
+                  type="date"
+                  class="apmt-input"
+                  placeholder="Choose Date"
+                />
+                <input
+                  type="date"
+                  class="apmt-input"
+                  placeholder="Choose Date"
+                />
+              </div>
+
+              <textarea
+                class="apmt-input apmt-message"
+                placeholder="Message"
+              ></textarea>
+
+              <button type="submit" class="apmt-submit-btn">
+                Book Appointment
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer
+        class="container-fluid text-light pt-5 pb-4 reveal reveal-up"
+        style="background: #1a1a1a"
+      >
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-md-4">
+              <h4 class="fw-bold mb-3" style="color: var(--primary)">
+                <i class="bi bi-buildings me-2"></i>Architect
+              </h4>
+              <p class="text-secondary small">
+                Modern architecture and interior design studio crafting spaces
+                that blend creativity, comfort, and timeless elegance.
+              </p>
+              <div class="d-flex gap-2 mt-3">
+                <a
+                  href="#"
+                  class="btn btn-outline-light btn-sm rounded-circle p-2"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="#"
+                  class="btn btn-outline-light btn-sm rounded-circle p-2"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a
+                  href="#"
+                  class="btn btn-outline-light btn-sm rounded-circle p-2"
+                  ><i class="bi bi-whatsapp"></i
+                ></a>
+                <a
+                  href="#"
+                  class="btn btn-outline-light btn-sm rounded-circle p-2"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <h6 class="fw-bold mb-3">Quick Links</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >Home</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >About</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >Service</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3">
+              <h6 class="fw-bold mb-3">Services</h6>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >Architecture</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >3D Animation</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-secondary text-decoration-none"
+                    >House Planning</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-3">
+              <h6 class="fw-bold mb-3">Contact</h6>
+              <p class="text-secondary small mb-2">
+                <i class="bi bi-telephone-fill me-2"></i>+91 1234543287
+              </p>
+              <p class="text-secondary small mb-2">
+                <i class="bi bi-envelope-fill me-2"></i>archi@gmail.com
+              </p>
+              <p class="text-secondary small">
+                <i class="bi bi-geo-alt-fill me-2"></i>123 Design Street, City
+              </p>
+            </div>
+          </div>
+
+          <hr class="border-secondary mt-4" />
+
+          
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const projects = [
+        {
+          image: "pic9.jpg",
+          heading: "25 Years Of Experience In Architecture Industry",
+          text: "Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.",
+          points: [
+            "Design Approach",
+            "Innovative Solutions",
+            "Project Management",
+          ],
+        },
+        {
+          image: "pic9.jpg",
+          heading: "Setting The Standard In Hospitality Design",
+          text: "Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum.",
+          points: ["Space Planning", "Luxury Finishes", "Guest Experience"],
+        },
+        {
+          image: "pic9.jpg",
+          heading: "Precision Engineering Meets Elegant Living",
+          text: "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.",
+          points: [
+            "Structural Planning",
+            "Sustainable Materials",
+            "On-Time Delivery",
+          ],
+        },
+        {
+          image: "pic9.jpg",
+          heading: "Retail Spaces Built For Flow And Footfall",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+          points: [
+            "Traffic Flow Design",
+            "Modular Layouts",
+            "Brand Integration",
+          ],
+        },
+      ];
+
+      const tabs = document.querySelectorAll(".proj-tab");
+      const content = document.getElementById("projContent");
+
+      function showProject(i) {
+        const p = projects[i];
+        content.innerHTML = `
+      <div class="proj-image-wrap">
+        <img src="${p.image}" class="proj-image" />
+      </div>
+      <div class="proj-info">
+        <h2 class="proj-info-heading">${p.heading}</h2>
+        <p class="proj-info-text">${p.text}</p>
+        <ul class="proj-checklist">
+          ${p.points.map((pt) => `<li><i class="bi bi-check-lg"></i> ${pt}</li>`).join("")}
+        </ul>
+        <a href="#" class="proj-readmore-btn">Read More</a>
+      </div>
+    `;
+      }
+
+      tabs.forEach((tab, i) => {
+        tab.addEventListener("click", () => {
+          tabs.forEach((t) => t.classList.remove("active"));
+          tab.classList.add("active");
+          showProject(i);
+        });
+      });
+
+      showProject(0);
+
+      const revealEls = document.querySelectorAll(".reveal");
+
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              revealObserver.unobserve(entry.target); // animate once only
+            }
+          });
+        },
+        { threshold: 0.15 },
+      );
+
+      revealEls.forEach((el) => revealObserver.observe(el));
+    </script>
+  </body>
+</html>
